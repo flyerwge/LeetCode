@@ -11,7 +11,7 @@ class Solution {
         int ans = -1;
         int window = needle.length();
 
-        if (window == 0 || window>haystack.length()) {
+        if (window == 0) {
             return 0;
         }
 
