@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode部分题目代码，含注释
+LeetCode刷题笔记，部分含注释
