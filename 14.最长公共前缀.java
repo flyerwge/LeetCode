@@ -11,7 +11,6 @@ class Solution {
             return "";
 
         String ans = strs[0];
-        char[] strChar = ans.toCharArray();
 
         for (int i = 1; i < strs.length; i++) {
             for (int j = 0; j < Math.min(ans.length(), strs[i].length()); j++) {
@@ -26,7 +25,6 @@ class Solution {
         }
 
         return ans;
-
     }
 }
 // @lc code=end
