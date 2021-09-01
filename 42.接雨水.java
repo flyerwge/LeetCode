@@ -25,7 +25,7 @@ class Solution {
 
         int ans = 0;
         for (int i = 1; i < n - 1; i++) {
-            ans += Math.min(leftMax[i], rightMax[i]) - height[i];
+            ans += Math.min(leftMax[i] - height[i], rightMax[i]) - height[i];
         }
 
         return ans;
